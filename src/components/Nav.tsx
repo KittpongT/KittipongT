@@ -1,11 +1,9 @@
-import React from "react";
 import {
   Navbar,
   NavbarBrand,
   NavbarContent,
   NavbarItem,
   Link,
-  Button,
 } from "@nextui-org/react";
 import { Kbd } from "@nextui-org/kbd";
 import { Code } from "@nextui-org/react";
