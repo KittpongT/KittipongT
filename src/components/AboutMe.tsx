@@ -8,8 +8,6 @@ export default function AboutMe({}: Props) {
       <div className="flex items-center justify-center h-screen mx-10">
         <Card className="p-4 max-w-[600px] min-h-[200px] min-w-[400px] items-center">
           <h1 className="text-2xl  text-bold font-mono">My College Life🧑‍🎓</h1>
-          {/* <Divider></Divider> */}
-          {/* <div className="flex w-full flex-col"> */}
           <Tabs
             className="my-2"
             key="primary"
