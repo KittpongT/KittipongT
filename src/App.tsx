@@ -10,8 +10,8 @@ function App() {
     <div style={{ backgroundImage: `url(${Inteoty})` }}>
       <Nav></Nav>
       <Routes>
-        <Route path="/" element={<Home></Home>} />
-        <Route path="/AboutMe" element={<AboutMe></AboutMe>} />
+        <Route path="/KittipongT/" element={<Home></Home>} />
+        <Route path="/KittipongT/AboutMe" element={<AboutMe></AboutMe>} />
       </Routes>
     </div>
   );
