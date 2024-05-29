@@ -15,7 +15,7 @@ export default function Nav({}: Props) {
       <NavbarBrand>
         <Link
           color="foreground"
-          href="/KittipongT/"
+          href="/"
           className="hover:text-sky-500"
         >
           <Code size="lg">
@@ -27,7 +27,7 @@ export default function Nav({}: Props) {
         <NavbarItem>
           <Link
             color="foreground"
-            href="/KittipongT/AboutMe"
+            href="/AboutMe"
             className="hover:text-sky-500"
           >
             <h1 className="font-mono">Who am I?</h1>
