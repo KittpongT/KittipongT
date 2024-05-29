@@ -16,7 +16,6 @@ export default function Nav({}: Props) {
         <Code size="lg">
           <Kbd keys={["command"]}></Kbd> Inteoty
         </Code>
-        {/* <p className="font-bold text-inherit">ACME</p> */}
       </NavbarBrand>
       <NavbarContent justify="end">
         <NavbarItem>
@@ -27,6 +26,11 @@ export default function Nav({}: Props) {
         <NavbarItem>
           <Link color="foreground" href="#">
             <h1 className="font-mono">My Blog</h1>
+          </Link>
+        </NavbarItem>
+        <NavbarItem>
+          <Link color="foreground" href="#">
+            <h1 className="font-mono">Contact me</h1>
           </Link>
         </NavbarItem>
       </NavbarContent>
