@@ -40,6 +40,11 @@ export default function Nav({}: Props) {
         </NavbarItem>
         <NavbarItem>
           <Link color="foreground" href="#" className="hover:text-sky-500">
+            <h1 className="font-mono">University life</h1>
+          </Link>
+        </NavbarItem>
+        <NavbarItem>
+          <Link color="foreground" href="#" className="hover:text-sky-500">
             <h1 className="font-mono">Contact me</h1>
           </Link>
         </NavbarItem>
